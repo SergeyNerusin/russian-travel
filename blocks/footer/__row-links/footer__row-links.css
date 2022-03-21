@@ -1,0 +1,8 @@
+.footer__row-links {
+  margin: 0;
+  padding: 0;
+}
+
+.footer__row-links:last-child {
+  margin: 0;
+}

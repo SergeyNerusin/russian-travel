@@ -1,0 +1,17 @@
+@import url('../vendor/normalize.css');
+@import url('../fonts/fonts.css');
+
+@import url('../blocks/page/page.css');
+
+/* Шапка сайта */
+@import url('../blocks/header/header.css');
+@import url('../blocks/logo/logo.css');
+@import url('../blocks/header/__lang-link/header__lang-link.css');
+
+
+
+/* Подвал сайта */
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__row-links/footer__row-links.css');
+@import url('../blocks/footer/__column-link/footer__column-link.css');
+@import url('../blocks/footer/__autor/footer__autor.css');

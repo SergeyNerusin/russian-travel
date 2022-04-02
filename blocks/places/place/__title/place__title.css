@@ -1,6 +1,4 @@
 .place__title {
-  /* grid-column: 1/-2;
-  grid-row: 1; */
   max-width: 460px;
   font-family: 'Inter', 'Arial', sans-serif;
   color: #fff;
@@ -9,4 +7,13 @@
   line-height: 76px;
   margin: 0;
   padding: 0;
+}
+
+@media screen and (max-width: 320px) {
+
+  .place__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+
 }

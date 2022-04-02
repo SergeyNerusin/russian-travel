@@ -9,3 +9,30 @@
   margin: 0 auto;
   justify-content: center;
 }
+
+@media screen and (max-width: 1024px) {
+  .photo-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, max-content));
+    grid-auto-rows: 225px;
+    gap: 14px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .photo-grid {
+    grid-template-columns: repeat(auto-fit, minmax(352px, max-content));
+    grid-auto-rows: 264px;
+    gap: 16px;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  .photo-grid {
+    grid-template-columns: repeat(auto-fit, minmax(288px, max-content));
+    grid-auto-rows: 216px;
+    gap: 12px;
+  }
+
+}

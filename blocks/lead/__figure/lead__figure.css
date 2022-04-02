@@ -1,4 +1,18 @@
 .lead__figure {
   margin: 0;
-  padding: 0;
+  padding: 0 11.57% 0 11.57%;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__figure {
+    padding: 0 4.69% 0 4.69%;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .lead__figure {
+    padding: 0;
+  }
+
 }

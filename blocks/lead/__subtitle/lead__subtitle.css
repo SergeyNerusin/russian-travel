@@ -10,9 +10,20 @@
   margin: 0 auto 64px auto;
 }
 
+/* для экранов с шириной менее 674px - не по заданию, но для лучшей отображаемости */
+@media screen and (max-width: 674px) {
+  .lead__subtitle {
+    max-width: 400px;
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+
+
 @media screen and (max-width: 320px) {
   .lead__subtitle {
     font-size: 16px;
     line-height: 20px;
+    margin-bottom: 40px;
   }
 }

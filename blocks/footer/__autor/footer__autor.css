@@ -8,3 +8,15 @@
   margin: 0;
   padding: 0;
 }
+
+@media screen and (max-width: 760px) {
+  .footer__autor {
+    padding-top: 48px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer__autor {
+    padding-top: 0;
+  }
+}

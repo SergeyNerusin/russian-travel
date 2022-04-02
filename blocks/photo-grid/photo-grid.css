@@ -10,7 +10,7 @@
   justify-content: center;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1029px) {
   .photo-grid {
     grid-template-columns: repeat(auto-fit, minmax(300px, max-content));
     grid-auto-rows: 225px;
@@ -19,7 +19,7 @@
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 940px) {
   .photo-grid {
     grid-template-columns: repeat(auto-fit, minmax(352px, max-content));
     grid-auto-rows: 264px;

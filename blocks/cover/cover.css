@@ -8,7 +8,9 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width: 1024px) {
+/* Для сохранения пропорции высоты-ширины фонового изображения
+строил график по контрольным точкам и определял промежуточные примерные значния высоты*/
+@media screen and (max-width: 1029px) {
   .cover {
     max-width: 100%;
     height: 640px;
@@ -36,7 +38,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 326px) {
   .cover {
     max-width: 100%;
     height: 200px;

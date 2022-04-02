@@ -12,7 +12,7 @@
   text-align: center;
 }
 
-/* не по заданию но для пропорциональго отображения */
+/* Для пропорциональго отображения */
 @media screen and (max-width: 550px) {
   .cover__subtitle {
     font-size: 16px;
@@ -20,7 +20,7 @@
   }
 }
 
-@media screen and(max-width: 320px) {
+@media screen and(max-width: 326px) {
   .cover__subtitle {
     font-size: 14px;
     line-height: 16px;

@@ -4,7 +4,7 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1029px) {
   .places {
     max-width: 928px;
     padding: 92px 4.69%;
@@ -18,8 +18,8 @@
   }
 }
 
-/* Отступы для текста  задал отдельно в place__text.css,
-полскольку картинка должна быть без отступов. */
+/* Полскольку картинка должна быть без отступов, отступы для текста
+  задаются далее отдельно в place__text.css. */
 @media screen and (max-width: 326px) {
   .places {
     max-width: 720px;

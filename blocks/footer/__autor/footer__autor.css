@@ -9,13 +9,15 @@
   padding: 0;
 }
 
+/* После контр. точки 768px, перенос копирайта и автора
+для дальнейшего корректного отображения ссылок в подвале сайта.*/
 @media screen and (max-width: 760px) {
   .footer__autor {
     padding-top: 48px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 326px) {
   .footer__autor {
     padding-top: 0;
   }

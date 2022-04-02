@@ -9,7 +9,7 @@
   flex-wrap: wrap;
 }
 
-
+/* не по заданию, но для корректного отображения ссылок */
 @media screen and (max-width: 760px) {
   .footer {
     flex-direction: column;

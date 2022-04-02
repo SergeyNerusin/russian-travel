@@ -17,9 +17,10 @@
   margin-right: 0px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 326px) {
   .footer__link {
     font-size: 24px;
     line-height: 24px;
+    margin-right: 0px;
   }
 }

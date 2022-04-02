@@ -8,11 +8,11 @@
   font-size: 72px;
   line-height: 76px;
   padding: 0;
-  margin: 0 auto;
+  margin: 0 auto 32px;
   text-align: center;
 }
 
-/* не по заданию но для пропорциональго отображения */
+/* Для корректного отображения текста не вылезающего за рамки блока */
 @media screen and (max-width: 550px) {
   .cover__title {
     max-width: 288px;
@@ -21,10 +21,11 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 326px) {
   .cover__title {
     max-width: 288px;
     font-size: 32px;
     line-height: 35px;
+    margin-bottom: 16px;
   }
 }

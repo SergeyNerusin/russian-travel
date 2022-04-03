@@ -1,7 +1,4 @@
 .cover {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   position: relative;
   max-width: calc(100% - 96px);
   height: 740px;
@@ -9,38 +6,34 @@
 }
 
 /* Для сохранения пропорции высоты-ширины фонового изображения
-строил график по контрольным точкам и определял промежуточные примерные значния высоты*/
+строил график по контрольным точкам определил промежуточные примерные значния высоты*/
 @media screen and (max-width: 1029px) {
   .cover {
     max-width: 100%;
-    height: 640px;
+    max-height: 640px;
   }
 }
 
 @media screen and (max-width: 850px) {
   .cover {
-    max-width: 100%;
-    height: 540px;
+    max-height: 540px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover {
-    max-width: 100%;
-    height: 480px;
+    max-height: 480px;
   }
 }
 
 @media screen and (max-width: 550px) {
   .cover {
-    max-width: 100%;
-    height: 300px;
+    max-height: 300px;
   }
 }
 
 @media screen and (max-width: 326px) {
   .cover {
-    max-width: 100%;
-    height: 200px;
+    max-height: 200px;
   }
 }

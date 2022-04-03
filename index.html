@@ -101,7 +101,9 @@
             <h2 class="place__title">Куршская коса</h2>
             <div class="place__website">
               <span class="place__url-heading">url</span>
-              <a href="http://park-kosa.ru" class="place__link">park-kosa.ru</a>
+              <a href="http://park-kosa.ru" target="_blank" class="place__link"
+                >park-kosa.ru</a
+              >
             </div>
             <img
               src="./images/kursh-kosa.png"
@@ -252,18 +254,21 @@
             </div>
           </div>
         </section>
-        <section class="cover">
-          <h2 class="cover__title">До Байкала «на собаках»</h2>
-          <p class="cover__subtitle">
-            По мотивам учебной темы о Транссибе — путешествие от столицы до
-            Байкала на электричках.
-          </p>
+        <section
+          class="cover"
+          aria-label="Фоновое изображение - До Байкала 'на собаках'"
+        >
           <div class="cover__background"></div>
           <a
+            class="cover__overlay"
             href="https://stampsy.com/na-elektrichkakh-do-baikala"
             target="_blank"
-            class="cover__overlay"
-          ></a>
+            ><span class="cover__title">До Байкала «на собаках»</span>
+            <span class="cover__subtitle">
+              По мотивам учебной темы о Транссибе — путешествие от столицы до
+              Байкала на электричках.
+            </span>
+          </a>
         </section>
       </main>
       <!-- Подвал сайта -->

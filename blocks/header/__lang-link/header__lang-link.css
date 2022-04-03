@@ -14,10 +14,14 @@
   margin-right: 18px;
 }
 
+.header__lang-link:hover {
+  transition: opacity .8s linear;
+  opacity: .8;
+}
+
 @media screen and (max-width: 326px) {
   .header__lang-link {
     font-size: 18px;
     line-height: 20px;
   }
-
 }

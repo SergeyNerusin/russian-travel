@@ -16,7 +16,6 @@
     grid-auto-rows: 225px;
     gap: 14px;
   }
-
 }
 
 @media screen and (max-width: 940px) {
@@ -25,7 +24,6 @@
     grid-auto-rows: 264px;
     gap: 16px;
   }
-
 }
 
 @media screen and (max-width: 352px) {
@@ -34,5 +32,4 @@
     grid-auto-rows: 216px;
     gap: 12px;
   }
-
 }

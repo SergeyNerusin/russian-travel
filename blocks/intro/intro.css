@@ -1,3 +1,5 @@
+/* рассчитал паддинги в процентах от ширины экрана в контрольных точках
+для плавности переходов */
 .intro {
   display: block;
   text-align: left;
@@ -9,9 +11,7 @@
 @media screen and (max-width: 1024px) {
   .intro {
     padding: 92px 0 92px 4.69%;
-
   }
-
 }
 
 @media screen and (max-width: 768px) {
@@ -19,12 +19,10 @@
     padding: 88px 3.13% 88px 3.13%;
     max-width: 720px;
   }
-
 }
 
 @media screen and (max-width: 326px) {
   .intro {
     padding: 64px 5% 64px 5%;
   }
-
 }

@@ -1,10 +1,10 @@
 .header {
   /* установили ограничения для секции */
+  max-width: 1184px;
+  min-height: 52px;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  max-width: 1184px;
-  min-height: 52px;
   padding: 28px 48px 56px 48px;
   margin: 0;
 }
@@ -12,13 +12,11 @@
 @media screen and (max-width: 768px) {
   .header {
     padding: 28px 24px 48px 24px;
-
   }
 }
 
 @media screen and (max-width: 326px) {
   .header {
     padding: 16px 16px 48px 16px;
-
   }
 }

@@ -1,6 +1,7 @@
 .footer {
-  max-width: 1184px;
-  padding: 92px 48px 24px 48px;
+  max-width: 1280px;
+  background-color: #2a2c2f;
+  padding: 92px 3.75% 24px 3.75%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;

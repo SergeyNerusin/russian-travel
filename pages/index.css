@@ -9,6 +9,9 @@
 @import url('../blocks/header/__lang-link/header__lang-link.css');
 @import url('../blocks/header/__lang-link/_active/header__lang-link_active.css');
 
+/* Ограничение ширины для заливки фона основного контента */
+@import url('../blocks/main/main.css');
+
 /* Секция lead */
 @import url('../blocks/lead/lead.css');
 @import url('../blocks/lead/__title/lead__title.css');
@@ -53,4 +56,4 @@
 @import url('../blocks/footer/__links/footer__links.css');
 @import url('../blocks/footer/__link/footer__link.css');
 @import url('../blocks/footer/__autor/footer__autor.css');
-@import url('../blocks/lead/__caption/lead__caption.css')
+@import url('../blocks/lead/__caption/lead__caption.css');

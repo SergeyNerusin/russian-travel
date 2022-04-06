@@ -5,6 +5,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  background-color: #2a2c2f;
   padding: 28px 48px 56px 48px;
   margin: 0;
 }
